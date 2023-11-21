@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500;
+}
+
+button {
+  height: 40px !important;
+  background-color: black !important;
+  color: #FFEDD5 !important;
+  border-radius: 5px !important;
+  padding: 5px 20px !important;
+  border: none !important;
+  box-shadow: none !important;
+  cursor: pointer !important;
+  transition: background-color 0.5s ease, transform 0.3s ease !important;
+  outline: none !important;
+}
+
+button:hover {
+  background-color: #EA580C !important;
+  color: black !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0 0 10px #EA580C(0, 0, 0, 0.3);
+  border: 1px solid #e96620 !important;
+}
+
+.text-effect{
+  transition: text-shadow 0.3s ease !important;
+}
+
+.text-effect:hover{
+  cursor: pointer !important;
+  text-shadow: 0 0 5px #e87537 !important;
+}
+
+.Divider{
+  border-top: 2px solid rgb(196, 75, 23) !important;
+  margin-top: 5px !important;
+  margin-bottom: 30px !important;
+}
+
+.container{
+  width: 500px;
+  margin: 0 auto; 
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fecd8db7;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container-h2{
+  margin-bottom: 10px;
+}
+
+#email,
+#password,
+#firstName,
+#lastName {
+  background-color: #fcefde !important;
+  color: #7C2D12 !important; 
+  border: 1px solid black;
+  padding: 10px !important;
+  margin: 5px 0 !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+.register-link{
+  text-decoration: none;
+  transition: text-decoration 0s;
+  margin-left: 2px;
+}
+
+.register-link:hover{
+  text-decoration: underline !important;
+  text-decoration-color: #ff8716 !important;
+}
+
+input , select{
+  height: 40px !important;
+  border-radius: 0 !important;
+  border: 2px solid #efa57d !important;
+  width: 100% !important;
+  padding-left: 15px !important;
+}
+
+textarea{
+  border-radius: 0 !important;
+  border: 1px solid #bbbbbb !important;
+}
+
+input:focus , textarea:focus , select:focus {
+  box-shadow: none !important;
+  border: 2px solid #343434 !important;
+}
+
+.ant-form-item {
+  margin-bottom: 10 !important;
+}
+.ant-form-item-label {
+  padding: 0 !important;
+}
+
+table{
+  border: 1px solid #bbbbbb !important;
+}
+
+i{
+  font-size: 20px !important;
+}
